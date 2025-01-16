@@ -1,7 +1,7 @@
 package dev.clara.bank_account;
 
 class CheckingAccount extends Account {
-    private float overdraft;
+    float overdraft;
 
     public CheckingAccount(float balance, float annualInterestRate) {
         super(balance, annualInterestRate);
