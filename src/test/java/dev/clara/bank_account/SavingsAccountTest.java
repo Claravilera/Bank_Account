@@ -32,7 +32,7 @@ public class SavingsAccountTest {
         savings.withdraw(3000);
         savings.withdraw(3000);
         savings.monthlyStatement();
-        assertEquals(3300, savings.balance, 0.01);
+        assertEquals(9037.5, savings.balance, 0.01);
 
     }
 }

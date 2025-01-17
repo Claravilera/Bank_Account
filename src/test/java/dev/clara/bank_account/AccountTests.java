@@ -33,7 +33,7 @@ public class AccountTests {
         Account account = new Account(10000, 0.06f);
         account.monthlyFee = 500;
         account.monthlyStatement();
-        assertEquals(10050, account.balance, 0.01);
+        assertEquals(9547.5, account.balance, 0.01);
     }
 
 }

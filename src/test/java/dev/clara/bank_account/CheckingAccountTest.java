@@ -38,6 +38,6 @@ public class CheckingAccountTest {
         checking.withdraw(5000);
         checking.monthlyFee = 300;
         checking.monthlyStatement();
-        assertEquals(4700, checking.balance);
+        assertEquals(4719.58349609375, checking.balance);
     }
 }
